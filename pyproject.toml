@@ -11,6 +11,7 @@ classifiers = [
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Framework :: Scrapy',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License'
@@ -26,11 +27,11 @@ include = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-billiard = "^3.6"
-Scrapy = "^2.5.1"
+billiard = "^4"
+Scrapy = "^2"
 
 [tool.poetry.dev-dependencies]
-black = "^21.9b0"
+black = "^24"
 pytest = "^6.2"
 pylint = "^2.9"
 tox = "^3.24"
